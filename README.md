@@ -8,7 +8,15 @@ Telegram service for subscription and etc exchange
 npm install
 ```
 
-### Compiles and hot-reloads for development (Ngrok needed for runing on localhost ngrok http port -host-header="localhost:port")
+### Compiles and hot-reloads for development
+
+Ngrok needed for runing on localhost
+
+```
+ngrok http 8080 -host-header="localhost:8080"
+```
+
+
 
 ```
 npm run serve
